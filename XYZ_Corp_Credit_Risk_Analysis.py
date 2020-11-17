@@ -9,7 +9,7 @@ import pandas as pd
 import numpy as np
 import seaborn as sns
 
-data = pd.read_csv(r'D:\Python\GrpProject\XYZCorp_LendingData.txt',  delimiter = "\t", index_col = 0, header = 0)
+data = pd.read_csv(r'D:\Python\XYZCorp_LendingData.txt',  delimiter = "\t", index_col = 0, header = 0)
 data.describe(include="all")
 data.shape
 data.isnull().sum()
